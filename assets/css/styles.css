@@ -10,7 +10,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #003a56;
+  background: #263140;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -60,7 +60,7 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
+  background: #273241;
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
@@ -117,8 +117,8 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #0c0303;
+  border-top: 10px solid #263140;
 }
 .header .btn {
   margin-top: 60px;
@@ -126,6 +126,11 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
+}
+.img-circle {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    border-color: white;
 }
 .header .profile-content .name {
   color: #49515a;
