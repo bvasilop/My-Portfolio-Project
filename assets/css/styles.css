@@ -121,6 +121,8 @@ iframe {
   margin-right: 30px;
 }
 .img-circle {
+    -webkit-filter: grayscale(45%);
+    filter: grayscale(45%);
     border: 3px solid transparent;
     border-radius: 50%;
     border-color: white;
